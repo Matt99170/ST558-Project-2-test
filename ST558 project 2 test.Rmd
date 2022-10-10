@@ -2,7 +2,7 @@
 title: "ST558 Project 2 test"
 author: "Matthew Sookoo"
 date: "2022-10-10"
-#output: github_document
+output: github_document
 rmarkdown:: render("ST558 Project 2 test",
                    output_format = "github_document",
                    output_file = "README.md",
