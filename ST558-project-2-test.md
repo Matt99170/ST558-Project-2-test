@@ -3,9 +3,6 @@ ST558 Project 2 test
 Matthew Sookoo
 2022-10-10
 
--   <a href="#r-markdown" id="toc-r-markdown">R Markdown</a>
--   <a href="#including-plots" id="toc-including-plots">Including Plots</a>
-
 ## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax

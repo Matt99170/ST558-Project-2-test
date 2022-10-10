@@ -2,18 +2,10 @@
 title: "ST558 Project 2 test"
 author: "Matthew Sookoo"
 date: "2022-10-10"
-output:
-  github_document:
-    toc: yes
-    toc_depth: '5'
-  rmarkdown::github_document:
-    toc: yes
-  html_document:
-    toc: yes
-    toc_depth: 5
-always_allow_html: yes
+output: github_document
+rmarkdown:: render(output_file = "README.md",
+                   output_options = list(html_preview = FALSE, keep_html = FALSE, toc = TRUE, toc_depth = "5", df_print = "tibble"))
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
