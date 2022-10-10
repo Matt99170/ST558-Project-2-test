@@ -2,7 +2,11 @@
 title: "ST558 Project 2 test"
 author: "Matthew Sookoo"
 date: "2022-10-10"
-output: html_document
+#output: github_document
+rmarkdown:: render("ST558 Project 2 test",
+                   output_format = "github_document",
+                   output_file = "README.md",
+                   output_options = list(html_preview = FALSE, keep_html = FALSE, toc = TRUE, toc_depth = "1", df_print = "tibble"))
 ---
 
 ```{r setup, include=FALSE}
@@ -28,3 +32,10 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+rmarkdown:: render("ST558 Project 2 test",
+                   output_format = "github_document",
+                   output_file = "README.md",
+                   output_options = list(html_preview = FALSE, keep_html = FALSE, toc = TRUE, toc_depth = "1", df_print = "tibble"))
+                  
+                  testing 123
